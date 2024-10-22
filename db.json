@@ -1,0 +1,114 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "E-commerce Website",
+      "client": {
+        "name": "ACME Corp",
+        "contactEmail": "acme@example.com"
+      },
+      "teamMembers": [
+        { "id": 101, "name": "Alice", "role": "Developer", "hoursWorked": 120 },
+        { "id": 102, "name": "Bob", "role": "Designer", "hoursWorked": 80 },
+        { "id": 103, "name": "Charlie", "role": "QA", "hoursWorked": 60 }
+      ],
+      "tasks": [
+        { "id": 1, "title": "Frontend Development", "status": "completed" },
+        { "id": 2, "title": "Backend Development", "status": "in-progress" },
+        { "id": 3, "title": "UI/UX Design", "status": "completed" }
+      ],
+      "budget": 10000
+    },
+    {
+      "id": 2,
+      "title": "Mobile App",
+      "client": {
+        "name": "Beta LLC",
+        "contactEmail": "beta@example.com"
+      },
+      "teamMembers": [
+        { "id": 104, "name": "Dave", "role": "Developer", "hoursWorked": 150 },
+        { "id": 105, "name": "Eva", "role": "Designer", "hoursWorked": 90 },
+        { "id": 106, "name": "Frank", "role": "QA", "hoursWorked": 70 }
+      ],
+      "tasks": [
+        { "id": 4, "title": "API Development", "status": "in-progress" },
+        { "id": 5, "title": "Testing", "status": "not-started" },
+        { "id": 6, "title": "App Design", "status": "completed" }
+      ],
+      "budget": 20000
+    },
+    {
+      "id": 3,
+      "title": "Enterprise System",
+      "client": {
+        "name": "Gamma Inc",
+        "contactEmail": "gamma@example.com"
+      },
+      "teamMembers": [
+        { "id": 107, "name": "Grace", "role": "Developer", "hoursWorked": 200 },
+        {
+          "id": 108,
+          "name": "Hank",
+          "role": "Project Manager",
+          "hoursWorked": 100
+        },
+        { "id": 109, "name": "Ivy", "role": "QA", "hoursWorked": 50 }
+      ],
+      "tasks": [
+        { "id": 7, "title": "System Design", "status": "completed" },
+        { "id": 8, "title": "Development", "status": "in-progress" },
+        { "id": 9, "title": "Integration Testing", "status": "not-started" }
+      ],
+      "budget": 50000
+    },
+    {
+      "id": 4,
+      "title": "SaaS Platform",
+      "client": {
+        "name": "Delta Solutions",
+        "contactEmail": "delta@example.com"
+      },
+      "teamMembers": [
+        { "id": 110, "name": "Jake", "role": "Developer", "hoursWorked": 180 },
+        { "id": 111, "name": "Karen", "role": "Designer", "hoursWorked": 120 },
+        { "id": 112, "name": "Leo", "role": "QA", "hoursWorked": 90 }
+      ],
+      "tasks": [
+        { "id": 10, "title": "Frontend UI", "status": "completed" },
+        { "id": 11, "title": "Backend API", "status": "in-progress" },
+        { "id": 12, "title": "Performance Testing", "status": "not-started" }
+      ],
+      "budget": 30000
+    },
+    {
+      "id": 5,
+      "title": "Marketing Website",
+      "client": {
+        "name": "Echo Ventures",
+        "contactEmail": "echo@example.com"
+      },
+      "teamMembers": [
+        { "id": 113, "name": "Molly", "role": "Developer", "hoursWorked": 140 },
+        {
+          "id": 114,
+          "name": "Nick",
+          "role": "SEO Specialist",
+          "hoursWorked": 70
+        },
+        {
+          "id": 115,
+          "name": "Olivia",
+          "role": "Content Writer",
+          "hoursWorked": 60
+        }
+      ],
+      "tasks": [
+        { "id": 13, "title": "SEO Optimization", "status": "completed" },
+        { "id": 14, "title": "Content Writing", "status": "in-progress" },
+        { "id": 15, "title": "Website Launch", "status": "not-started" }
+      ],
+      "budget": 15000
+    }
+  ]
+}
